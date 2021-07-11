@@ -1,0 +1,36 @@
+.header {
+  position: sticky;
+  top: 0;
+  z-index: 11;
+}
+.NavBar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 25px;
+  height: 55px;
+  color: #48b6d9;
+}
+.NavBar::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  z-index: -1;
+  left: 0;
+  width: 100%;
+  height: 55px;
+  background-color: rgb(32, 32, 32);
+  opacity: 0.9;
+}
+.MenuList ul {
+  list-style: none;
+  display: flex;
+  font-size: 1.3rem;
+}
+.MenuList ul li {
+  margin: 0 10px;
+  background-color: #090909;
+}
+.heading h1 {
+  font-size: 1.7rem;
+}
